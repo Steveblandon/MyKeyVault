@@ -1,5 +1,5 @@
 # MyKeyVault
-Small program I created to mess around with encryption for storing passwords. The program by no means follows any encryption standards of cryptography, it more or less obfuscates data in a text file, a separate file is created as they key that the program needs to decrypt the text file. The program is one of several small programs I made when I was just beginning to learn python.
+Small program I created to mess around with encryption for storing passwords. The program by no means follows any encryption standards of cryptography as far I know. What it actually does is that the program obfuscates data in a text file, then a separate file is created as the key that the program needs to decrypt the data file. The main idea being that you put this key file in a separate physical device like a USB. The program can be set to automatically check a USB drive for the key file as soon as it starts.
 
 HOW IT WORKS:
 1. user sets where to find the key (in this case, USB path names) in the configuration file named KeyVault_conf.txt (e.g. G:\\)
