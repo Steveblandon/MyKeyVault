@@ -1,0 +1,3 @@
+PATH_1 = G:\\
+PATH_2 = H:\\
+kvf_encrypted
